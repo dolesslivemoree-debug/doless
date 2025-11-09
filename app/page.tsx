@@ -64,40 +64,43 @@ export default function Home() {
 
   const tiers = [
     {
-      name: "Starter",
-      price: "$149",
-      cadence: "/one-time",
-      blurb: "Perfect for creators getting their first automation win.",
-      items: [
-        "30-min audit call",
-        "1 simple workflow (e.g., content planner or auto-reply)",
-        "Basic documentation",
-      ],
-      cta: "Book Starter",
-    },
-    {
-      name: "Creator",
-      price: "$349",
-      cadence: "/month",
-      highlight: true,
-      blurb: "Ongoing support for growing brands and shops.",
-      items: [
-        "Priority chat support",
-        "2–3 active workflows maintained",
-        "Monthly tune-ups + reports",
-      ],
-      cta: "Start Subscription",
-    },
-    {
-      name: "Pro",
-      price: "$899",
-      cadence: "/month",
-      blurb: "For teams that want serious leverage.",
-      items: ["Custom AI assistants", "Dashboards + alerts", "Quarterly strategy sprint"],
-      cta: "Talk to Us",
-    },
-  ];
-
+name: "Starter",
+price: "$19",
+cadence: "/week",
+blurb: "Best for trying your first automation win.",
+items: [
+"30‑min audit call",
+"1 simple workflow (e.g., content planner or auto‑reply)",
+"Basic documentation",
+],
+cta: "Book Starter",
+},
+{
+name: "Creator",
+price: "$49",
+cadence: "/week",
+highlight: true,
+blurb: "Ongoing support + 2–3 active workflows maintained.",
+items: [
+"Priority chat support",
+"2–3 active workflows maintained",
+"Monthly tune‑ups + reports",
+],
+cta: "Start Subscription",
+},
+{
+name: "Pro",
+price: "$99",
+cadence: "/week",
+blurb: "Serious leverage for small teams.",
+items: [
+"Custom AI assistants",
+"Dashboards + alerts",
+"Quarterly strategy sprint",
+],
+cta: "Talk to Us",
+},
+];
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100">
       {/* Nav */}
